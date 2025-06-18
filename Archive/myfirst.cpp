@@ -1,5 +1,5 @@
+// myfirst.cpp -- displays a message
 #include <iostream>
-using namespace std;
 int main()
 {
     using namespace std;
