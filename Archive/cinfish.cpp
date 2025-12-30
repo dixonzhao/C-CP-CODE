@@ -5,7 +5,7 @@ int main(){
     double fish[Max];
     cout << "Please enter the weights of your fish.\n";
     cout << "You may enter up to " << Max << " fish <q to terminate>. \n";
-    cout << "fisht #1: ";
+    cout << "fish #1: ";
     int i =0;
     while (i < Max && cin >> fish[i]){
         if (++i <Max)
