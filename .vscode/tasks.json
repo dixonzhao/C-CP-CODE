@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+	  {
+		"label": "build with msys2",
+		"type": "shell",
+		"command": "C:/msys64/ucrt64/bin/g++.exe",
+		"args": [
+		  "-g",
+		  "\"${file}\"",
+		  "-o",
+		  "\"${fileDirname}\\${fileBasenameNoExtension}.exe\""
+		],
+		"options": {
+		  "shell": {
+			"executable": "C:\\Windows\\System32\\cmd.exe",
+			"args": ["/d", "/c"]
+		  }
+		},
+		"group": {
+		  "kind": "build",
+		  "isDefault": true
+		},
+		"problemMatcher": ["$gcc"],
+		"detail": "build using msys2 g++ with cmd shell"
+	  }
+	]
+  }
+  
